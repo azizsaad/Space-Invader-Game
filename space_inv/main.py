@@ -5,8 +5,8 @@ import math
 
 pygame.init()
 
-clock=pygame.time.Clock()
-FPS = 60
+# clock=pygame.time.Clock()
+# FPS = 60
 
 screen = pygame.display.set_mode((800,600))
 
@@ -105,7 +105,7 @@ while running:
         if event.type == pygame.KEYDOWN:
 
             if event.key == pygame.K_LEFT:
-                playerX_change = -5
+                playerX_change = -25
 
 
 
